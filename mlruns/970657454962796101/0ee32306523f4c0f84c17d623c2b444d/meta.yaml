@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/ishritchavan/mf_mlops_pipeline/mlruns/970657454962796101/0ee32306523f4c0f84c17d623c2b444d/artifacts
+end_time: 1757826565689
+entry_point_name: ''
+experiment_id: '970657454962796101'
+lifecycle_stage: active
+run_id: 0ee32306523f4c0f84c17d623c2b444d
+run_name: run_2025-09-14T05:09:24.573847+00:00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757826564574
+status: 3
+tags: []
+user_id: ishritchavan

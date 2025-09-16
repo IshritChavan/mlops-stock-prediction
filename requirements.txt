@@ -1,0 +1,29 @@
+# Core data science libraries
+pandas
+numpy
+scikit-learn
+
+# Data acquisition
+yfinance
+requests
+
+# MLOps and model management
+mlflow
+kafka-python
+
+# Web frameworks
+fastapi
+uvicorn[standard]
+streamlit
+pydantic
+
+# Visualisation
+matplotlib
+
+# Scheduling and orchestration
+apache-airflow
+
+# Utilities
+PyYAML
+schedule
+psutil

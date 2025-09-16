@@ -1,0 +1,39 @@
+alpha_vantage_api_key: "AI3I6I2V8MMHJ9T1"  # replace with your own key
+
+# List of mutual fund or ETF tickers to ingest.  These tickers should be
+# supported by Alpha Vantage or Yahoo Finance.  You can specify one or
+# multiple symbols; the pipeline will fetch data for each and merge them.
+tickers:
+  - VFINX        # Vanguard 500 Index Fund Investor Shares
+  - SWPPX        # Schwab S&P 500 Index Fund  
+  - AAPL        # Aaple Inc. Stock  
+
+# Risk‑free rate used in Sharpe ratio calculations.  This should be the
+# daily risk‑free rate (e.g. annualised rate / 252).  The default value
+# corresponds to roughly 2.5% annualised.
+risk_free_rate: 0.0001
+
+# Model hyper‑parameters for the RandomForest regressor.  You can adjust
+# these values to tune model performance.  See scikit‑learn documentation.
+model:
+  type: random_forest
+  params:
+    n_estimators: 200
+    max_depth: 6
+    min_samples_split: 2
+    random_state: 42
+
+# Drift detection thresholds.  If the population stability index (PSI) or
+# KL divergence for any feature exceeds the respective threshold, the
+# pipeline will trigger model retraining.
+drift:
+  kl_threshold: 0.1
+  psi_threshold: 0.1
+
+# Paths for storing data and models.  The pipeline will create these
+# directories if they do not already exist.
+paths:
+  data_dir: data
+  model_dir: models
+  mlflow_dir: mlruns
+  logs_dir: logs

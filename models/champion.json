@@ -1,0 +1,40 @@
+{
+  "tickers": {
+    "SWPPX": {
+      "path": "models/champion_SWPPX.pkl",
+      "metrics": {
+        "mse": 0.00013065488701559372,
+        "r2": -0.18583909697388767,
+        "n_train": 1984,
+        "n_test": 497
+      },
+      "metric_name": "mse",
+      "smaller_is_better": true,
+      "updated_at": "2025-09-14T03:39:39.734690+00:00"
+    },
+    "VFINX": {
+      "path": "/Users/ishritchavan/mf_mlops_pipeline/models/champion_VFINX.pkl",
+      "metrics": {
+        "mse": 0.00014651854123495675,
+        "r2": -0.429764752973256,
+        "n_train": 1984,
+        "n_test": 497
+      },
+      "metric_name": "mse",
+      "smaller_is_better": true,
+      "updated_at": "2025-09-14T05:09:23.400173+00:00"
+    },
+    "AAPL": {
+      "path": "/Users/ishritchavan/mf_mlops_pipeline/models/champion_AAPL.pkl",
+      "metrics": {
+        "mse": 0.00035416178098651057,
+        "r2": -0.15760711134392613,
+        "n_train": 1984,
+        "n_test": 497
+      },
+      "metric_name": "mse",
+      "smaller_is_better": true,
+      "updated_at": "2025-09-14T05:09:25.689658+00:00"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+open,high,low,close,adjusted_close,volume,daily_return,rolling_return_7,rolling_return_14,rolling_return_30,volatility_7,volatility_14,volatility_30,sharpe_30,lag1_close,lag1_volume
