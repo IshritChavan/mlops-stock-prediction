@@ -1,4 +1,4 @@
-alpha_vantage_api_key: "AI3I6I2V8MMHJ9T1"  # replace with your own key
+alpha_vantage_api_key: ""  # replace with your own key
 
 # List of mutual fund or ETF tickers to ingest.  These tickers should be
 # supported by Alpha Vantage or Yahoo Finance.  You can specify one or
