@@ -8,7 +8,7 @@ services:
       - "8000:8000"
     environment:
       # Pass API key via environment variable or override config.yaml
-      - ALPHAVANTAGE_API_KEY=${ALPHAVANTAGE_API_KEY:-AI3I6I2V8MMHJ9T1}
+      - ALPHAVANTAGE_API_KEY=${ALPHAVANTAGE_API_KEY:-"Your own API Key"}
     volumes:
       - ./models:/app/models
       - ./data:/app/data
